@@ -4,19 +4,17 @@
   
     
     <entry>
-      <title>C++算法（一）</title>
+      <title>C++学习（一）</title>
       <link href="/2024/03/24/c-%E7%AE%97%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89/"/>
       <url>/2024/03/24/c-%E7%AE%97%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[<h1 id="常见的数据类型"><a href="#常见的数据类型" class="headerlink" title="常见的数据类型"></a>常见的数据类型</h1><h2 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h2><ul><li><p>short 短型 （max : $2^{15}-1$   min : $-2^{15}$ 即 -32768 到 32767）</p></li><li><p>int 整形（max : $2^{31}-1$   min : $-2^{31}$ 即 -2147483648 到 2147483647）</p></li><li><p>long 长型 （新版c&#x2F;c++范围与int相同）</p></li><li><p>long long 长整型 (C99引入,C++11官方正式标准如下)(max : $2^{63}-1$   min : $-2^{63}$ 即 -9,223,372,036,854,775,808 到 9,223,372,036,854,775,807)</p>  <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">long</span> <span class="type">long</span> - target type will have width of at least <span class="number">64</span> bits.(since C++<span class="number">11</span>)</span><br></pre></td></tr></table></figure></li></ul><h2 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h2><ul><li>float 浮点型（单精度 32bit）</li><li>double 浮点型（双精度 64bit）</li><li>long double 浮点型（128bit）</li></ul><h2 id="字符"><a href="#字符" class="headerlink" title="字符"></a>字符</h2><ul><li>char 字符</li><li>string 字符串</li></ul><h2 id="修饰整数变量"><a href="#修饰整数变量" class="headerlink" title="修饰整数变量"></a>修饰整数变量</h2><ul><li>signed 有符号型</li><li>unsigned 无符号型</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="常见的数据类型"><a href="#常见的数据类型" class="headerlink" title="常见的数据类型"></a>常见的数据类型</h1><h2 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h2><ul><li><p>short 短型 （max : $2^{15}-1$   min : $-2^{15}$ 即 -32768 到 32767）</p></li><li><p>int 整形（max : $2^{31}-1$   min : $-2^{31}$ 即 -2147483648 到 2147483647）</p></li><li><p>long 长型 （新版c&#x2F;c++范围与int相同）</p></li><li><p>long long 长整型 (C99引入,C++11官方正式标准如下)(max : $2^{63}-1$   min : $-2^{63}$ 即 -9,223,372,036,854,775,808 到 9,223,372,036,854,775,807)</p>  <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">long</span> <span class="type">long</span> - target type will have width of at least <span class="number">64</span> bits.(since C++<span class="number">11</span>)</span><br></pre></td></tr></table></figure></li></ul><h2 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h2><ul><li>float 浮点型（单精度 32bit）</li><li>double 浮点型（双精度 64bit）</li><li>long double 浮点型（128bit）</li></ul><h2 id="字符"><a href="#字符" class="headerlink" title="字符"></a>字符</h2><ul><li>char 字符</li><li>string 字符串</li></ul><h2 id="修饰整数变量"><a href="#修饰整数变量" class="headerlink" title="修饰整数变量"></a>修饰整数变量</h2><ul><li>signed 有符号型</li><li>unsigned 无符号型</li></ul><h1 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h1><h2 id="cin-输入"><a href="#cin-输入" class="headerlink" title="cin 输入"></a>cin 输入</h2><h2 id="cout-输出"><a href="#cout-输出" class="headerlink" title="cout 输出"></a>cout 输出</h2><h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><h2 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符"></a>算数运算符</h2><p>处理四则运算</p><table><thead><tr><th align="left">运算符</th><th>功能</th></tr></thead><tbody><tr><td align="left">+</td><td>正号</td></tr></tbody></table><h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><h2 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h2><h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><h2 id="三目运算符"><a href="#三目运算符" class="headerlink" title="三目运算符"></a>三目运算符</h2><h2 id="逗号运算符"><a href="#逗号运算符" class="headerlink" title="逗号运算符"></a>逗号运算符</h2><h2 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h2><h2 id="sizeof运算符"><a href="#sizeof运算符" class="headerlink" title="sizeof运算符"></a>sizeof运算符</h2>]]></content>
       
       
       
         <tags>
             
             <tag> C&#92;C++ </tag>
-            
-            <tag> 算法 </tag>
             
         </tags>
       
